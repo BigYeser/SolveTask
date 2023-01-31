@@ -219,10 +219,12 @@ class _BottomCardsState extends State<BottomCards> {
                               setState(() {
                                 widget.visable = !widget.visable;
                               });
-                              print(widget.visable);
                             },
+
                           ),
+
                         ],
+
                       ),
                     ],
                   ),
